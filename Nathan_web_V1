@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nathan-x4n | YouTube</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0a0a0a;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      min-height: 100vh;
+    }
+
+    header {
+      width: 100%;
+      background: linear-gradient(to right, #ff0055, #ff7700);
+      padding: 25px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+      animation: fadeInDown 1.5s ease;
+      color: #fff;
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .content {
+      padding: 40px 20px;
+      max-width: 900px;
+      animation: fadeIn 1.5s ease;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    .section {
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: #00ccff;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.7;
+    }
+
+    .planning {
+      background-color: #161616;
+      border-left: 6px solid #ffcc00;
+      padding: 25px;
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .planning:hover {
+      transform: scale(1.03);
+      box-shadow: 0 4px 25px rgba(255, 204, 0, 0.4);
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 20px;
+      text-align: center;
+      background: #1a1a1a;
+      width: 100%;
+      color: #aaa;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 12px 25px;
+      background-color: #00ccff;
+      color: #000;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    a.button:hover {
+      background-color: #00e0ff;
+      transform: scale(1.05);
+    }
+
+    ul {
+      list-style-type: '🔸 ';
+      padding-left: 1.2rem;
+      font-size: 1.1rem;
+    }
+
+    strong {
+      color: #ff8800;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bienvenue sur Nathan-x4n</h1>
+  </header>
+
+  <div class="content">
+    <div class="section">
+      <h2>🎮 Gaming, Dinos & Musique Arabe</h2>
+      <p>Plonge dans un univers unique où les jeux vidéo rencontrent les dinosaures et la musique arabe ! Une vidéo par semaine avec du contenu passionné et original !</p>
+    </div>
+
+    <div class="section planning">
+      <h2>🗓️ Planning de la chaîne</h2>
+      <ul>
+        <li><strong>Lundi</strong> : Live 🔴</li>
+        <li><strong>Samedi</strong> : Découvertes paléontologiques & Dinosaures 🦖</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>📺 Rejoins l'aventure sur YouTube</h2>
+      <p>Abonne-toi pour ne rien rater et faire partie de la communauté !</p>
+      <a class="button" href="https://www.youtube.com/@Nathan-x4n" target="_blank">👉 Voir la chaîne</a>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Nathan-x4n | Tous droits réservés.
+  </footer>
+
+</body>
+</html>
