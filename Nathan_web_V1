@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Nathan-x4n - Chaîne YouTube</title>
   <style>
-    /* Style général */
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -14,22 +13,18 @@
       text-align: center;
       animation: fadeIn 2s ease forwards;
     }
-
     header {
       padding: 40px 20px;
       background: rgba(0,0,0,0.3);
     }
-
     h1 {
       font-size: 3em;
       animation: bounce 1.2s infinite alternate;
     }
-
     section {
       margin-top: 30px;
       padding: 20px;
     }
-
     .schedule {
       display: inline-block;
       background: rgba(0,0,0,0.3);
@@ -40,24 +35,23 @@
       user-select: none;
       transition: background-color 0.3s, color 0.3s;
     }
-
     footer {
       margin-top: 40px;
       padding-bottom: 20px;
     }
-
+    a {
+      color: #fff;
+      text-decoration: underline;
+    }
     /* Animations */
-
     @keyframes bounce {
       0% { transform: translateY(0); }
       100% { transform: translateY(-10px); }
     }
-
     @keyframes fadeIn {
       from { opacity: 0; }
       to { opacity: 1; }
     }
-
     @keyframes pulse {
       0%, 100% { transform: scale(1); }
       50% { transform: scale(1.05); }
@@ -81,16 +75,14 @@
   <footer>
     <p>
       Chaîne YouTube : 
-      <a href="https://www.youtube.com/@Nathan-x4n/featured" target="_blank" rel="noopener noreferrer" style="color: #fff; text-decoration: underline;">
+      <a href="https://www.youtube.com/@Nathan-x4n/featured" target="_blank" rel="noopener noreferrer">
         @Nathan-x4n
       </a>
     </p>
   </footer>
 
   <script>
-    // Animation JS : clic sur planning change les couleurs
     const schedule = document.getElementById('schedule');
-
     schedule.addEventListener('click', () => {
       if (schedule.style.backgroundColor === 'rgba(0, 0, 0, 0.3)' || schedule.style.backgroundColor === '') {
         schedule.style.backgroundColor = 'rgba(255, 255, 255, 0.3)';
